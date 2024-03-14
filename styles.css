@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+html{
+    font-family: 'Open Sans';       /* Tem de se especificar a letra que exportámos*/
+    width: 800px;
+    margin:auto;
+}
+
+.contexto{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    /* border-right: solid 2px violet;
+    border-left: solid 2px violet; */
+}
+
+#header {
+    height: 450px;
+    width: 100%;
+    background-image: url('Imagens/topo-fundo.jpg');
+    background-size: cover;
+}
+
+#banner h1 {
+    color: white;
+    margin: 0;  /* Serve para tirar a margem de baixo que os h's tem de modo a ficar mesmo centrado na vertical */   
+    margin-top: 2em;
+}
+
+header p {
+    text-align: center;
+    color: white;
+    margin:auto;
+}
+
+#linha {
+    height: 3px ; 
+    width:15%;
+    margin: auto;
+    margin-top:0px;
+    opacity: 1 ;
+    background-color:white;
+    border-top:none;
+}
+
+.btn-outline-light{
+    border-radius: 3%;
+    background-color: rgba(255, 255, 255, 0.349);       /*O quarto elemento é o nível de opacidade */
+}
+
+#services h4 {
+    color: black;
+    margin: 0;  /* Serve para tirar a margem de baixo que os h's tem de modo a ficar mesmo centrado na vertical */   
+    margin-bottom: 40px;
+    background-image: url(Imagens/separador.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 25px;
+}
+
+.servicestxt {
+    font-weight: bold;
+    color:rgba(6, 155, 214, 1)
+    
+}
+
+.aboutus {
+ 
+    height: 400px;
+    width: 100%;
+    background-image: url('Imagens/texto-fundo.jpg');
+    background-size: 100% 100%;
+
+    & p {
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+}
+
+.aboutustext{
+    background: rgba(255, 255, 255, 0.8);
+    margin-right: 70px;
+}
+
+.btn-primary {
+    border-radius: 3%;
+    background-color: rgb(6, 155, 214);  
+    border: none;
+}
+    
+.btn-primary:hover{
+    background-color: rgb(6, 155, 214);  
+}
+
+#linhaABOUTUS {
+    height: 3px ; 
+    width:15%;
+    margin: auto;
+    margin-top:0px;
+    opacity: 1 ;
+    background-color: rgb(6, 155, 214);
+    border-top:none;
+}
+
+.numeros { 
+    height: 170px;
+    width: 100%;
+    background-image: url('Imagens/numeros-fundo.jpg');
+    background-size: 100% 100%;
+}
+
+h2 {
+    color: white;
+}
+
+/* METER RESPONSIVO À MÃO
+@media screen and (max-width: 970px) {
+   
+    h2 {margin-top:40%;
+        
+  }}
+
+@media screen and (max-width: 764px) {
+   
+    h2 {margin-top:50%;
+        
+  }}
+
+  @media screen and (max-width: 574px) {
+   
+    h2 {margin-top:30%;
+        
+  }} */
+
+
+.numeros span{
+    color: white;
+    text-align: center;
+}
+
+/* .testee {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* .teste1{
+    background-color: rgba(2, 255, 24, 0.5);
+}
+.teste2{
+    background-color:rgba(6, 155, 214, 0.7);
+} */
+
+p {
+    font-size: small;
+}
+
+.basic{
+    height: 350px;
+    width: 100%;
+    background-image: url('Imagens/precos_fundo.jpg');
+    background-size: 100% 100%;
+}
+
+.basic span{
+    color: rgb(108, 117, 125);
+    margin-top: 10px;
+    display: block;
+}
+
+.basic .btn {
+    border-radius: 0;
+    background-color: rgb(108,117,125);
+    border:0;
+}
+
+.basic .btn:hover {
+    background-color: rgb(6, 155, 214); 
+}
+
+
+/* SE QUISER MUDAR O TAMANHO DOS BOTÕES E O TAMANHO DA LETRA DOS BOTÕES
+    .btn {
+    font-size: 12px;
+    width: 6 rem;
+    height: 2.5rem;
+} */
+
+.grelha {
+    position: relative;
+}
+
+.bola {
+    position: absolute;
+    left:0;
+    right:0;
+    width: 35px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(79, 83, 87);
+    border-radius: 50%;
+    display: flex;
+    top:45px;
+}
+
+.bola p {
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.box {
+    height: 100px;
+    transition: 0.5s all ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: rgb(6, 155, 214); 
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.footer .btn {
+    background-color: transparent; 
+}
